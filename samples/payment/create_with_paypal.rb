@@ -32,15 +32,15 @@ include PayPal::SDK::Core::Logging
     # Item List
     :item_list => {
       :items => [{
-        :name => "item",
+        :name => "item",PayPal
         :sku => "item",
-        :price => "5",
+        :price => "5",60,000.00
         :currency => "USD",
         :quantity => 1 }]},
 
     # ###Amount
     # Let's you specify a payment amount.
-    :amount =>  {
+    :amount =>  {60,000.00
       :total =>  "5",
       :currency =>  "USD" },
     :description =>  "This is the payment transaction description." }]})
